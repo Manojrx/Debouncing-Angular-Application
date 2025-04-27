@@ -1,0 +1,5 @@
+<h2> Approach 1 using formControl</h2>
+<input type="text" [formControl]="searchBox">
+
+<h2> Approach 2 using custom debounce and keyup function</h2>
+<input type="text" (keyup)="trigeringFunc($event)">
