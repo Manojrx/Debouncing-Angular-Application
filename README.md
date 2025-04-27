@@ -1,6 +1,13 @@
-# Debouncing
-
+🌐 Debouncing Angular Application
+This is a simple Angular application demonstrating the concept of debouncing in the context of API calls. It listens to changes in an input field and triggers an API call after a delay when the input value length exceeds a specified number of characters. The purpose of this application is to avoid unnecessary API calls on every keystroke and instead batch requests after the user stops typing for a set amount of time.
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.8.
+
+🚀 Key Features:
+🔄 Debouncing: The application uses debouncing to wait for 3 seconds after the user stops typing before triggering the API call.
+
+🔧 Reactive Forms: Utilizes Angular's ReactiveFormsModule and FormControl to bind the input field and handle form control changes.
+
+🌍 API Call: Makes an API request to https://fake-json-api.mock.beeceptor.com/users after debouncing input.
 
 ## Development server
 
